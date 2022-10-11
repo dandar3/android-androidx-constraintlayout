@@ -123,6 +123,8 @@
     <attr format="enum" name="layoutDuringTransition">
         <enum name="ignoreRequest" value="0"/>
         <enum name="honorRequest" value="1"/>
+        <enum name="callMeasure" value="2"/>
+
     </attr>
     <attr format="boolean" name="layout_constrainedHeight"/>
     <attr format="boolean" name="layout_constrainedWidth"/>
@@ -867,7 +869,7 @@
     </declare-styleable>
     <declare-styleable name="ConstraintSet">
         <attr format="reference" name="deriveConstraintsFrom"/>
-        <attr format="enum" name="ConstraintRotate">
+        <attr format="enum" name="constraintRotate">
             <enum name="none" value="0"/>
             <enum name="right" value="1"/>
             <enum name="left" value="2"/>
@@ -1520,7 +1522,7 @@
             <flag name="none" value="0"/>
             <flag name="beginOnFirstDraw" value="1"/>
             <flag name="disableIntraAutoTransition" value="2"/>
-            />
+            <flag name="onInterceptTouchReturnSwipe" value="4"/>
         </attr>
     </declare-styleable>
     <declare-styleable name="Variant">
