@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="androidx.constraintlayout.widget" 
-    android:versionCode="204"
-    android:versionName="2.0.4">
+    android:versionCode="210"
+    android:versionName="2.1.0">
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="28" />
+        android:targetSdkVersion="30" />
 
     <application />
 

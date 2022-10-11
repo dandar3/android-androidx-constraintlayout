@@ -5,7 +5,7 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/androidx-appcompat"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/androidx-constraintlayout-solver"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/androidx-constraintlayout-core"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/androidx-core"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
