@@ -1,11 +1,11 @@
 ## androidx-constraintlayout
 
 Eclipse library project based on:<br/>
-https://maven.google.com/androidx/constraintlayout/constraintlayout/2.1.2/constraintlayout-2.1.2.aar
+https://maven.google.com/androidx/constraintlayout/constraintlayout/2.1.3/constraintlayout-2.1.3.aar
 
 **Import:**
 - _File > Import... > Team > Team Project Set > URL:_<br/>
-  https://raw.githubusercontent.com/dandar3/android-androidx-constraintlayout/2.1.2/.projectset
+  https://raw.githubusercontent.com/dandar3/android-androidx-constraintlayout/2.1.3/.projectset
 
 **Requires:**
 - `Android 11 (API 30) SDK Platform`

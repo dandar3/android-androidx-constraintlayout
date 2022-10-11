@@ -117,8 +117,10 @@
         <enum name="none" value="0"/>
         <enum name="chain" value="1"/>
         <enum name="aligned" value="2"/>
+        <enum name="chain2" value="3"/>
     </attr>
     <attr format="integer" name="framePosition"/>
+    <attr format="boolean" name="guidelineUseRtl"/>
     <attr format="reference" name="layoutDescription"/>
     <attr format="enum" name="layoutDuringTransition">
         <enum name="ignoreRequest" value="0"/>
@@ -463,6 +465,7 @@
         <attr name="layout_constraintGuide_begin"/>
         <attr name="layout_constraintGuide_end"/>
         <attr name="layout_constraintGuide_percent"/>
+        <attr name="guidelineUseRtl"/>
         <attr name="layout_constraintLeft_toLeftOf"/>
         <attr name="layout_constraintLeft_toRightOf"/>
         <attr name="layout_constraintRight_toLeftOf"/>
@@ -625,6 +628,7 @@
         <attr name="layout_constraintGuide_begin"/>
         <attr name="layout_constraintGuide_end"/>
         <attr name="layout_constraintGuide_percent"/>
+        <attr name="guidelineUseRtl"/>
         <attr name="layout_constraintLeft_toLeftOf"/>
         <attr name="layout_constraintLeft_toRightOf"/>
         <attr name="layout_constraintRight_toLeftOf"/>
@@ -785,6 +789,7 @@
         <attr name="layout_constraintGuide_begin"/>
         <attr name="layout_constraintGuide_end"/>
         <attr name="layout_constraintGuide_percent"/>
+        <attr name="guidelineUseRtl"/>
 
         <attr name="layout_goneMarginLeft"/>
         <attr name="layout_goneMarginTop"/>
@@ -920,6 +925,8 @@
         <attr name="layout_constraintGuide_begin"/>
         <attr name="layout_constraintGuide_end"/>
         <attr name="layout_constraintGuide_percent"/>
+        <attr name="guidelineUseRtl"/>
+
         <attr name="layout_constraintLeft_toLeftOf"/>
         <attr name="layout_constraintLeft_toRightOf"/>
         <attr name="layout_constraintRight_toLeftOf"/>
@@ -1201,6 +1208,7 @@
         <attr name="layout_constraintGuide_begin"/>
         <attr name="layout_constraintGuide_end"/>
         <attr name="layout_constraintGuide_percent"/>
+        <attr name="guidelineUseRtl"/>
         <attr name="layout_constraintLeft_toLeftOf"/>
         <attr name="layout_constraintLeft_toRightOf"/>
         <attr name="layout_constraintRight_toLeftOf"/>
